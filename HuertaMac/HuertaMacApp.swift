@@ -6,29 +6,30 @@
 //
 
 import SwiftUI
-import FirebaseCore
-
+import Firebase
+import FirebaseAppCheck
 
 class AppDelegate: NSObject, UIApplicationDelegate {
-  func application(_ application: UIApplication,
-                   didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
-    FirebaseApp.configure()
-
-    return true
-  }
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
+        // Configura Firebase
+        FirebaseApp.configure()
+        
+        // Configura Firebase App Check
+        if #available(iOS 13.0, *) {
+            AppCheck.setAppCheckProviderFactory(DeviceCheckProviderFactory())
+        }
+        
+        return true
+    }
 }
 
 @main
-struct YourApp: App {
-  // register app delegate for Firebase setup
-  @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
+struct MyApp: App {
+    @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
 
-
-  var body: some Scene {
-    WindowGroup {
-      NavigationView {
-        ContentView()
-      }
+    var body: some Scene {
+        WindowGroup {
+            ContentView()
+        }
     }
-  }
 }
