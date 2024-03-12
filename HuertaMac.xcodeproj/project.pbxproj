@@ -11,6 +11,7 @@
 		4F556B8D2B9F886300B3E075 /* ImageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F556B8C2B9F886300B3E075 /* ImageData.swift */; };
 		4F556B8F2B9F889F00B3E075 /* ImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F556B8E2B9F889F00B3E075 /* ImageViewModel.swift */; };
 		4F556B912B9F9C5400B3E075 /* AddDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F556B902B9F9C5400B3E075 /* AddDocument.swift */; };
+		4F556B932B9F9F1A00B3E075 /* DetalleProductoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F556B922B9F9F1A00B3E075 /* DetalleProductoView.swift */; };
 		4FC9DCE72B9DB75C00618656 /* HuertaMacApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC9DCE62B9DB75C00618656 /* HuertaMacApp.swift */; };
 		4FC9DCE92B9DB75C00618656 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC9DCE82B9DB75C00618656 /* ContentView.swift */; };
 		4FC9DCEB2B9DB75D00618656 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FC9DCEA2B9DB75D00618656 /* Assets.xcassets */; };
@@ -59,6 +60,7 @@
 		4F556B8C2B9F886300B3E075 /* ImageData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageData.swift; sourceTree = "<group>"; };
 		4F556B8E2B9F889F00B3E075 /* ImageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewModel.swift; sourceTree = "<group>"; };
 		4F556B902B9F9C5400B3E075 /* AddDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDocument.swift; sourceTree = "<group>"; };
+		4F556B922B9F9F1A00B3E075 /* DetalleProductoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalleProductoView.swift; sourceTree = "<group>"; };
 		4FC9DCE32B9DB75C00618656 /* HuertaMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HuertaMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FC9DCE62B9DB75C00618656 /* HuertaMacApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HuertaMacApp.swift; sourceTree = "<group>"; };
 		4FC9DCE82B9DB75C00618656 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -170,6 +172,7 @@
 				4FC9DCFA2B9DBB7800618656 /* ProductoView.swift */,
 				4FC9DCFC2B9DBB9B00618656 /* ListaProductosView.swift */,
 				4F556B8C2B9F886300B3E075 /* ImageData.swift */,
+				4F556B922B9F9F1A00B3E075 /* DetalleProductoView.swift */,
 			);
 			path = Vistas;
 			sourceTree = "<group>";
@@ -306,6 +309,7 @@
 				4FC9DCFD2B9DBB9B00618656 /* ListaProductosView.swift in Sources */,
 				4FC9DCF92B9DBB2000618656 /* Producto.swift in Sources */,
 				4FC9DCE92B9DB75C00618656 /* ContentView.swift in Sources */,
+				4F556B932B9F9F1A00B3E075 /* DetalleProductoView.swift in Sources */,
 				4FC9DCFF2B9DBBD300618656 /* ProductoViewModel.swift in Sources */,
 				4F556B912B9F9C5400B3E075 /* AddDocument.swift in Sources */,
 				4FC9DCE72B9DB75C00618656 /* HuertaMacApp.swift in Sources */,
